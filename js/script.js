@@ -1,5 +1,70 @@
 "use strict";
 
+//  Напишите функцию, которая принимает
+// на вход два массива объектов, содержащих
+// информацию о фильмах(название, год выпуска, рейтинг),
+// и возвращает новый массив, содержащий только те фильмы,
+// которые выпущены после 2000 года и имеют рейтинг выше 8.
+
+// const movies = [
+//   {
+//     title: 'Matrix',
+//     year: 1999,
+//     rating: 8.7,
+//   },
+//   {
+//     title: 'The Lord of the Rings',
+//     year: 2001,
+//     rating: 8.9,
+//   },
+//   {
+//     title: 'Harry Potter',
+//     year: 2003,
+//     rating: 8.2,
+//   },
+//   {
+//     title: 'Interstellar',
+//     year: 2014,
+//     rating: 8.6,
+//   },
+// ];
+
+// const newMovies = [
+//   {
+//     title: 'John Wick',
+//     year: 2014,
+//     rating: 8.1,
+//   },
+//   {
+//     title: 'Inception',
+//     year: 2010,
+//     rating: 8.8,
+//   },
+//   {
+//     title: 'The Avengers',
+//     year: 2012,
+//     rating: 8.1,
+//   },
+// ];
+
+// const newArrFilms = [...movies, ...newMovies];
+
+// console.table(newArrFilms);
+
+// const topMovies = newArrFilms => newArrFilms.filter(movie => movie.year >= 2000 && movie.rating >= 8);
+
+// console.table(topMovies(newArrFilms))
+
+// Напишите функцию, которая
+// принимает на вход строку и возвращает
+// количество уникальных символов в этой строке.
+
+// const str = 'QWertYYYYUUIUIu'
+// const newArr = str.split("")
+// const uniqueSymbol = newArr.filter((el, i, arr) => arr.indexOf(el) === i).length;
+
+// console.log(uniqueSymbol)
+
 // Напишите функцию, которая принимает
 // на вход массив чисел и возвращает новый массив,
 // содержащий только те числа, которые являются простыми.
