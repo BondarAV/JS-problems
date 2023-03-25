@@ -90,41 +90,54 @@
 // в которой каждый символ заменен на символ,
 // стоящий на том же месте в алфавите, но в обратном порядке.
 
-const string = "abc";
+// const string = "abc";
 
-const alphabet = [
-  "a",
-  "b",
-  "c",
-  "d",
-  "e",
-  "f",
-  "g",
-  "h",
-  "i",
-  "j",
-  "k",
-  "l",
-  "m",
-  "n",
-  "o",
-  "p",
-  "q",
-  "r",
-  "s",
-  "t",
-  "u",
-  "v",
-  "w",
-  "x",
-  "y",
-  "z",
-];
+// const alphabet = [
+//   "a",
+//   "b",
+//   "c",
+//   "d",
+//   "e",
+//   "f",
+//   "g",
+//   "h",
+//   "i",
+//   "j",
+//   "k",
+//   "l",
+//   "m",
+//   "n",
+//   "o",
+//   "p",
+//   "q",
+//   "r",
+//   "s",
+//   "t",
+//   "u",
+//   "v",
+//   "w",
+//   "x",
+//   "y",
+//   "z",
+// ];
 
-const strangeFunction = (string) =>
-  string
-    .split("")
-    .map((element) => alphabet[alphabet.length - 1 - alphabet.indexOf(element)])
-    .join("");
+// const strangeFunction = (string) =>
+//   string
+//     .split("")
+//     .map((element) => alphabet[alphabet.length - 1 - alphabet.indexOf(element)])
+//     .join("");
 
-console.log(strangeFunction(string));
+// console.log(strangeFunction(string));
+
+// Напишите функцию, которая принимает на вход массив чисел
+// и возвращает новый массив, содержащий только те числа,
+// которые повторяются в исходном массиве более одного раза.
+
+const numbers = [1, 2, 4, 5, 1, 2, 3, 4, 6];
+
+const repeatingNumbers = (array) =>
+  array.filter((number, index) => array.indexOf(number) !== index);
+
+// && numbers.lastIndexOf(number) === index
+
+console.log(repeatingNumbers(numbers));
