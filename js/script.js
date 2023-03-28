@@ -231,11 +231,11 @@
 // и возвращает новый массив, содержащий только те числа,
 // которые повторяются в исходном массиве более одного раза.
 
-const numbers = [1, 2, 4, 5, 1, 2, 3, 4, 6];
+// const numbers = [1, 2, 4, 5, 1, 2, 3, 4, 6];
 
-const repeatingNumbers = (array) =>
-  array.filter((number, index) => array.indexOf(number) !== index);
+// const repeatingNumbers = (array) =>
+//   array.filter((number, index) => array.indexOf(number) !== index);
 
-// && numbers.lastIndexOf(number) === index
+// // && numbers.lastIndexOf(number) === index
 
-console.log(repeatingNumbers(numbers));
+// console.log(repeatingNumbers(numbers));
